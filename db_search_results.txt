@@ -1,0 +1,27 @@
+SEARCH RESULTS FOR 21afe54f-1fe9-4f21-8b64-3bdf76e5b7d7
+
+USER NOT FOUND IN USERS TABLE.
+
+OWNER NOT FOUND BY user_id.
+
+OWNER NOT FOUND BY id.
+
+ALL OWNERS USER_IDS:
+[
+  {
+    "user_id": null,
+    "email": "sidharthburji181701@gmail.com"
+  },
+  {
+    "user_id": null,
+    "email": "noreplyaquaclassifier@gmail.com"
+  },
+  {
+    "user_id": null,
+    "email": "admin@rentride.com"
+  },
+  {
+    "user_id": null,
+    "email": "user_09007d11@rentride.com"
+  }
+]
