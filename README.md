@@ -1,73 +1,93 @@
-# Welcome to your Lovable project
+# RentRide — Multi-Vehicle Rental Platform
 
-## Project info
+RentRide is a web-based platform designed to help users discover, explore, and book rental vehicles. It provides vehicle browsing, booking management, user authentication, and vehicle owner management.
 
-**URL**: https://lovable.dev/projects/cc493025-b5c6-4c48-b4ce-50d52b0ec697
+## Features
 
-## How can I edit this code?
+- Browse and explore available vehicles
+- Vehicle booking and booking management
+- User authentication and profile management
+- Vehicle owner and vehicle management
+- Admin panel for platform administration
+- Vehicle availability tracking
+- Interactive maps
+- Email notifications for bookings
+- Payment integration using Razorpay
+- Supabase database integration
+- Multi-language support
 
-There are several ways of editing your application.
+*Only retain features that are implemented and working in your project.*
 
-**Use Lovable**
+## Technology Stack
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/cc493025-b5c6-4c48-b4ce-50d52b0ec697) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
+**Frontend**
 - React
-- shadcn-ui
+- TypeScript
+- Vite
 - Tailwind CSS
+- shadcn/ui
 
-## How can I deploy this project?
+**Backend and Services**
+- Node.js
+- Supabase
+- Razorpay
+- Email integration
 
-Simply open [Lovable](https://lovable.dev/projects/cc493025-b5c6-4c48-b4ce-50d52b0ec697) and click on Share -> Publish.
+*Verify the backend technologies against your actual project configuration.*
 
-## Can I connect a custom domain to my Lovable project?
+## Getting Started
 
-Yes, you can!
+### Prerequisites
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+- Node.js
+- npm
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/LaxmanTarihalkar/RentRide.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd RentRide
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Configure your environment variables using `.env.example`. Never commit real credentials or secret keys.
+
+5. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+## Environment Variables
+
+Configure the environment variables required by your application. Refer to `.env.example` for the variable names and setup instructions.
+
+Do not publish API secrets, database passwords, access tokens, or private user data.
+
+## Project Structure
+
+- `src/` — Frontend source code
+- `public/` — Static assets
+- `server/` — Server-side code, if applicable
+- `scripts/` — Utility and maintenance scripts
+- `supabase` and SQL files — Database setup and schema, where applicable
+
+## Future Improvements
+
+Potential improvements include enhanced booking workflows, mobile support, and additional vehicle management capabilities.
+
+## License
+
+A license can be added once the project's distribution and reuse terms have been decided.
